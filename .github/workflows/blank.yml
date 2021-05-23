@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: Ale0x78/effective-spork@vfa
+        uses: Ale0x78/effective-spork@fa
         with:
           who-to-greet: 'Alex'
       # Use the output from the `hello` step
