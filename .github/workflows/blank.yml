@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Clone
         id: clone
-        uses: actions/checkout@head
+        uses: actions/checkout@HEAD
       - name: Run the action
         id: hello
         uses: Ale0x78/effective-spork@HEAD
